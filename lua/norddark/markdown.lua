@@ -1,7 +1,7 @@
 local markdown = {
 		markdownBlockquote = {fg = C.accent, },
 		markdownBold = {fg = C.yellow, style = "bold", },
-		markdownCode = {fg = C.green, },
+		markdownCode = {fg = C.fg, },
 		markdownCodeBlock = {fg = C.green, },
 		markdownCodeDelimiter = {fg = C.green, },
 		markdownH1 = {fg = C.blue, },
