@@ -120,7 +120,7 @@ highlights:
   Label: 'blue' # case, default, etc, in git is Head Merge and Help
   Exception: 'blue' # try, catch, throw
   Include: 'blue' # preprocessor #include
-  PreProc: 'cyan' #  generic Preprocessor
+  PreProc: 'blue' #  generic Preprocessor
   Define: 'cyan' # preprocessor #define
   Macro: 'blue' # same as Define, inside of git is the Unstaged
   PreCondit: 'cyan' # preprocessor #if, #else, #endif, etc.
@@ -155,7 +155,7 @@ Treesitter:
   TSLabel: 'fg'
   TSNamespace: 'blue'
   TSRepeat: 'blue'
-  TSConstant: 'orange'
+  TSConstant: 'yellow'
   TSConstBuiltin: 'fg'
   TSFloat: 'purple'
   TSNumber: 'purple'
@@ -244,7 +244,7 @@ LSP:
   LspDiagnosticsDefaultError: 'error_red'
   LspDiagnosticsDefaultWarning: 'warning_orange'
   LspDiagnosticsDefaultInformation: 'info_yellow'
-  LspDiagnosticsDefaultHint: 'gray_blue'
+  LspDiagnosticsDefaultHint: 'gray_blue - u'
   LspDiagnosticsVirtualTextError: 'error_red'
   LspDiagnosticsVirtualTextWarning: 'warning_orange'
   LspDiagnosticsVirtualTextInformation: 'info_yellow'

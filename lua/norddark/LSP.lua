@@ -2,7 +2,7 @@ local LSP = {
 		LspDiagnosticsDefaultError = {fg = C.error_red, },
 		LspDiagnosticsDefaultWarning = {fg = C.warning_orange, },
 		LspDiagnosticsDefaultInformation = {fg = C.info_yellow, },
-		LspDiagnosticsDefaultHint = {fg = C.gray_blue, },
+		LspDiagnosticsDefaultHint = {fg = C.gray_blue, style = "underline", },
 		LspDiagnosticsVirtualTextError = {fg = C.error_red, },
 		LspDiagnosticsVirtualTextWarning = {fg = C.warning_orange, },
 		LspDiagnosticsVirtualTextInformation = {fg = C.info_yellow, },
