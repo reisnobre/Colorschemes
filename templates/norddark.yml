@@ -49,7 +49,7 @@ highlights:
   ModeMsg: 'fg bg'
   MsgSeparator: 'fg bg'
   SpellBad: 'error_red - u'
-  SpellCap: 'yellow - u'
+  SpellCap: 'red - u'
   SpellLocal: 'green - u'
   SpellRare: 'purple - u'
   NormalNC: 'fg bg'
@@ -101,36 +101,36 @@ highlights:
   NonText: 'bg'
   Variable: 'white'
   String: 'green'
-  Character: 'light_green'
-  Constant: 'orange'
-  Number: 'red'
-  Boolean: 'red'
-  Float: 'red'
+  Character: 'light_green' # any character constant: 'c', '\n'
+  Constant: 'fg' # any constant, in git commit is the file name
+  Number: 'purple' # a number constant: 5
+  Boolean: 'purple' # a boolean constant: TRUE, false
+  Float: 'purple' # a floating point constant: 2.3e10
   Identifier: 'blue' # this
-  Function: 'fg'
-  Operator: 'gray_blue'
-  Type: 'purple'
-  StorageClass: 'purple'
-  Structure: 'purple'
-  Typedef: 'purple'
+  Function: 'cyan' # inside git is the master, orgin/master thing
+  Operator: 'gray_blue' # sizeof", "+", "*", etc.
+  Type: 'blue' # int, long, char, etc.
+  StorageClass: 'purple' # static, register, volatile, etc.
+  Structure: 'blue' # struct, union, enum, etc. or the M indicator inside of git
+  Typedef: 'blue' # A typedef, in git is the M in staged
   Keyword: 'blue'
-  Statement: 'blue'
+  Statement: 'blue' #  any statement
   Conditional: 'blue'
   Repeat: 'blue'
-  Label: 'blue'
-  Exception: 'blue'
-  Include: 'blue'
-  PreProc: 'cyan'
-  Define: 'cyan'
-  Macro: 'cyan'
-  PreCondit: 'cyan'
-  Special: 'fg'
-  SpecialChar: 'orange'
-  Tag: 'blue'
-  Debug: 'red'
-  Delimiter: 'gray -'
+  Label: 'blue' # case, default, etc, in git is Head Merge and Help
+  Exception: 'blue' # try, catch, throw
+  Include: 'blue' # preprocessor #include
+  PreProc: 'cyan' #  generic Preprocessor
+  Define: 'cyan' # preprocessor #define
+  Macro: 'blue' # same as Define, inside of git is the Unstaged
+  PreCondit: 'cyan' # preprocessor #if, #else, #endif, etc.
+  Special: 'fg' #  any special symbol
+  SpecialChar: 'fg' # special character in a constant
+  Tag: 'fg' # you can use CTRL-] on this, in git is the g?
+  Debug: 'red' #  debugging statements
+  Delimiter: 'gray -' # character that needs attention like , or .
   SpecialComment: 'gray'
-  Underlined: '- - u'
+  Underlined: '- - u' # text that stands out, HTML links
   Bold: '- - b'
   Italic: '- - i'
   Ignore: 'cyan bg b'
@@ -141,7 +141,7 @@ highlights:
   TabLineFill: 'white alt_bg'
 
 Treesitter:
-  TSComment: 'dark_gray'
+  TSComment: 'context'
   TSAnnotation: 'purple'
   TSAttribute: 'fg'
   TSConstructor: 'cyan'
