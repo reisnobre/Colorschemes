@@ -7,6 +7,7 @@ local colors = {
 	white = "#ECEFF4",
 	gray = "#5A647D",
 	light_gray = "#4C566A",
+	comment_gray = "#717E98",
 	dark_gray = "#434C5E",
 	blue = "#81A1C1",
 	gray_blue = "#5E81AC",
